@@ -56,7 +56,13 @@ pip
 
         $ tsp_rest_api_server settings
 
-6. Run tsp rest api server:
+6. Set EVE_SETTINGS:
+
+   .. code-block:: bash
+
+        $ export EVE_SETTINGS=$PWD/settings.py
+
+7. Run tsp rest api server:
 
    .. code-block:: bash
 
