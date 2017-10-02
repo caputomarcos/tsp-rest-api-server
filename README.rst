@@ -137,8 +137,8 @@ Usage
 Drop all mongodb databases
 --------------------------
 
+   .. code-block:: JavaScript
 
-   .. code-block:: jscript
         # dropall.js
 
         var dbs = db.getMongo().getDBNames()
