@@ -119,7 +119,7 @@ Usage
         $ curl -d '{ "title":"Sao Paulo", "routes":[{"origin":"A","destiny":"B","distance":10},{"origin":"B","destiny":"D","distance":15},{"origin":"A","destiny":"C","distance":20},{"origin":"C","destiny":"D","distance":30},{"origin":"B","destiny":"E","distance":50},{"origin":"D","destiny":"E","distance":30}]}' -H "Content-Type: application/json" -X POST http://0.0.0.0:5000/maps
 
 
-3. Search shortest route:
+2. Search shortest route:
 
    .. code-block:: bash
 

@@ -27,7 +27,7 @@ DOMAIN = {
 
 MONGO_HOST = '0.0.0.0'
 MONGO_PORT = 27017
-MONGO_DBNAME = 'tsp_rest_api'
+MONGO_DBNAME = 'tsp_rest_api_server'
 
 RESOURCE_METHODS = ['GET', 'POST']
 XML = False
