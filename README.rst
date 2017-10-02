@@ -148,8 +148,16 @@ Drop all mongodb databases
             db.dropDatabase();
         }
 
-Links
+
+usage
 -----
+
+   .. code-block:: bash
+
+        mongo dropall.js
+
+refs
+----
 
 * `DIJKSTRA'S SHORTEST PATH ALGORITHM  <http://www.bogotobogo.com/python/python_Dijkstras_Shortest_Path_Algorithm.php>`_
 
