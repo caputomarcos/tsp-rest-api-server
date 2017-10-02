@@ -134,6 +134,20 @@ Usage
         }
 
 
+Drop all mongodb databases
+--------------------------
+
+
+   .. code-block:: jscript
+        # dropall.js
+
+        var dbs = db.getMongo().getDBNames()
+        for(var i in dbs){
+            db = db.getMongo().getDB( dbs[i] );
+            print( "dropping db " + db.getName() );
+            db.dropDatabase();
+        }
+
 Links
 -----
 

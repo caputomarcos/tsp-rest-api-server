@@ -28,7 +28,7 @@ mongo_requires = [
 
 setup(
     name='tsp_rest_api_server',
-    version='0.3',
+    version='v3.0',
     author='Marcos Caputo <caputo.marcos@gmail.com>',
     url='https://github.com/caputomarcos/tsp-rest-api-server',
     description="TSP Rest Api Server - Rest Api Server using Dijsktra's algorithm applied to travelling salesman problem.",
