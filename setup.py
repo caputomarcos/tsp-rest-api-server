@@ -6,7 +6,7 @@ setup_requires = []
 
 install_requires = [
     'click==6.7',
-    'Eve==0.7.4',
+    'Eve==0.7.5',
     'Events== 0.2.2',
     'flask<=0.12,>=0.10.1',
     'Flask-PyMongo==0.5.1',
