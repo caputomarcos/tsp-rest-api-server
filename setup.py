@@ -14,7 +14,7 @@ install_requires = [
     'Jinja2==2.9.6',
     'MarkupSafe==0.23',
     'simplejson==3.11.1',
-    'Werkzeug==0.11.15',
+    'Werkzeug==0.15.3',
 ]
 
 dev_requires = [
