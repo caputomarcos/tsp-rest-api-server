@@ -11,7 +11,7 @@ install_requires = [
     'flask<=0.12,>=0.10.1',
     'Flask-PyMongo==0.5.1',
     'itsdangerous==0.24',
-    'Jinja2==2.9.6',
+    'Jinja2==2.11.3',
     'MarkupSafe==0.23',
     'simplejson==3.11.1',
     'Werkzeug==0.11.15',
